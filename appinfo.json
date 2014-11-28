@@ -1,35 +1,51 @@
 {
-    "versionLabel": "1.0",
-    "uuid": "25769431-43a7-4f73-aee5-26ebf5c4c2d3",
     "appKeys": {},
-    "longName": "pebbleNotepad",
-    "versionCode": 1,
     "capabilities": [
         ""
     ],
-    "shortName": "pebbleNotepad",
     "companyName": "debuti",
-    "watchapp": {
-        "watchface": false
-    },
+    "longName": "pebbleNotepad",
+    "projectType": "native",
     "resources": {
         "media": [
             {
-                "menuIcon": true,
-                "type": "png",
-                "name": "MENU_ICON",
-                "file": "images/crayon_mine.png"
+                "file": "data/note4.txt",
+                "name": "NOTE4",
+                "type": "raw"
             },
             {
-                "type": "raw",
-                "name": "NOTE0",
-                "file": "notes/note0.txt"
+                "file": "data/note3.txt",
+                "name": "NOTE3",
+                "type": "raw"
             },
             {
-                "type": "raw",
+                "file": "data/note2.txt",
+                "name": "NOTE2",
+                "type": "raw"
+            },
+            {
+                "file": "data/note1.txt",
                 "name": "NOTE1",
-                "file": "notes/note1.txt"
+                "type": "raw"
+            },
+            {
+                "file": "data/note0.txt",
+                "name": "NOTE0",
+                "type": "raw"
+            },
+            {
+                "file": "images/crayon_mine.png",
+                "menuIcon": true,
+                "name": "MENU_ICON",
+                "type": "png"
             }
         ]
+    },
+    "shortName": "pebbleNotepad",
+    "uuid": "25769431-43a7-4f73-aee5-26ebf5c4c2d3",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
     }
 }
